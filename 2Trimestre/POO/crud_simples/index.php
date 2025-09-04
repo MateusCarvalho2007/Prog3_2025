@@ -23,6 +23,7 @@
     <tr>
         <td>Nome</td>
         <td>E-mail</td>
+        <td>Telefone</td>
         <td>Opções</td>
     </tr>
     <?php
@@ -30,6 +31,7 @@
         echo "<tr>";
         echo "<td>{$contato['nome']}</td>";
         echo "<td>{$contato['email']}</td>";
+        echo "<td>{$contato['telefone']}</td>";
         echo "<td>
                 <a href='formEdit.php?id=".$contato['id']."'>Editar</a>
                 <a href='excluir.php?id=".$contato['id']."'>Excluir</a> 
